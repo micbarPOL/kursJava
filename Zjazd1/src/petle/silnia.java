@@ -11,7 +11,6 @@ public class silnia {
 		System.out.println("Podaj liczbe...");
 		int n = sc.nextInt();
 		System.out.println("Liczę silnię dla " + n);
-		
 		for (int i = 1; i < n + 1; i++) {
 			wynik = wynik.multiply(BigInteger.valueOf(i));
 		}
