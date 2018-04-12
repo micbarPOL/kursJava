@@ -1,0 +1,106 @@
+100;Steven;King;President;1987-06-17;24000.00;515.123.4567;Executive;2004 Charade Rd;Seattle
+101;Neena;Kochhar;Administration Vice President;1989-09-21;17000.00;515.123.4568;Executive;2004 Charade Rd;Seattle
+102;Lex;De Haan;Administration Vice President;1993-01-13;17000.00;515.123.4569;Executive;2004 Charade Rd;Seattle
+103;Alexander;Hunold;Programmer;1990-01-03;9000.00;590.423.4567;IT;2014 Jabberwocky Rd;Southlake
+104;Bruce;Ernst;Programmer;1991-05-21;6000.00;590.423.4568;IT;2014 Jabberwocky Rd;Southlake
+105;David;Austin;Programmer;1997-06-25;4800.00;590.423.4569;IT;2014 Jabberwocky Rd;Southlake
+106;Valli;Pataballa;Programmer;1998-02-05;4800.00;590.423.4560;IT;2014 Jabberwocky Rd;Southlake
+107;Diana;Lorentz;Programmer;1999-02-07;4200.00;590.423.5567;IT;2014 Jabberwocky Rd;Southlake
+108;Nancy;Greenberg;Finance Manager;1994-08-17;12000.00;515.124.4569;Finance;2004 Charade Rd;Seattle
+109;Daniel;Faviet;Accountant;1994-08-16;9000.00;515.124.4169;Finance;2004 Charade Rd;Seattle
+110;John;Chen;Accountant;1997-09-28;8200.00;515.124.4269;Finance;2004 Charade Rd;Seattle
+111;Ismael;Sciarra;Accountant;1997-09-30;7700.00;515.124.4369;Finance;2004 Charade Rd;Seattle
+112;Jose Manuel;Urman;Programmer;1998-03-07;7800.00;515.124.4469;IT;2014 Jabberwocky Rd;Southlake
+113;Luis;Popp;Accountant;1999-12-07;6900.00;515.124.4567;Finance;2004 Charade Rd;Seattle
+114;Den;Raphaely;Purchasing Manager;1994-12-07;11000.00;515.127.4561;Purchasing;2004 Charade Rd;Seattle
+115;Alexander;Khoo;Purchasing Clerk;1995-05-18;3100.00;515.127.4562;Purchasing;2004 Charade Rd;Seattle
+116;Shelli;Baida;Purchasing Clerk;1997-12-24;2900.00;515.127.4563;Purchasing;2004 Charade Rd;Seattle
+117;Sigal;Tobias;Purchasing Clerk;1997-07-24;2800.00;515.127.4564;Purchasing;2004 Charade Rd;Seattle
+118;Guy;Himuro;Purchasing Clerk;1998-11-15;2600.00;515.127.4565;Purchasing;2004 Charade Rd;Seattle
+119;Karen;Colmenares;Purchasing Clerk;1999-08-10;2500.00;515.127.4566;Purchasing;2004 Charade Rd;Seattle
+120;Matthew;Weiss;Stock Manager;1996-07-18;8000.00;650.123.1234;Shipping;2011 Interiors Blvd;South San Francisco
+121;Adam;Fripp;Stock Manager;1997-04-10;8200.00;650.123.2234;Shipping;2011 Interiors Blvd;South San Francisco
+122;Payam;Kaufling;Stock Manager;1995-05-01;7900.00;650.123.3234;Shipping;2011 Interiors Blvd;South San Francisco
+123;Shanta;Vollman;Stock Manager;1997-10-10;6500.00;650.123.4234;Shipping;2011 Interiors Blvd;South San Francisco
+124;Kevin;Mourgos;Stock Manager;1999-11-16;5800.00;650.123.5234;Shipping;2011 Interiors Blvd;South San Francisco
+125;Julia;Nayer;Stock Clerk;1997-07-16;3200.00;650.124.1214;Shipping;2011 Interiors Blvd;South San Francisco
+126;Irene;Mikkilineni;Stock Clerk;1998-09-28;2700.00;650.124.1224;Shipping;2011 Interiors Blvd;South San Francisco
+127;James;Landry;Stock Clerk;1999-01-14;2400.00;650.124.1334;Shipping;2011 Interiors Blvd;South San Francisco
+128;Steven;Markle;Stock Clerk;2000-03-08;2200.00;650.124.1434;Shipping;2011 Interiors Blvd;South San Francisco
+129;Laura;Bissot;Stock Clerk;1997-08-20;3300.00;650.124.5234;Shipping;2011 Interiors Blvd;South San Francisco
+130;Mozhe;Atkinson;Stock Clerk;1997-10-30;2800.00;650.124.6234;Shipping;2011 Interiors Blvd;South San Francisco
+131;James;Marlow;Stock Clerk;1997-02-16;2500.00;650.124.7234;Shipping;2011 Interiors Blvd;South San Francisco
+132;TJ;Olson;Stock Clerk;1999-04-10;2100.00;650.124.8234;Shipping;2011 Interiors Blvd;South San Francisco
+133;Jason;Mallin;Stock Clerk;1996-06-14;3300.00;650.127.1934;Shipping;2011 Interiors Blvd;South San Francisco
+134;Michael;Rogers;Stock Clerk;1998-08-26;2900.00;650.127.1834;Shipping;2011 Interiors Blvd;South San Francisco
+135;Ki;Gee;Stock Clerk;1999-12-12;2400.00;650.127.1734;Shipping;2011 Interiors Blvd;South San Francisco
+136;Hazel;Philtanker;Stock Clerk;2000-02-06;2200.00;650.127.1634;Shipping;2011 Interiors Blvd;South San Francisco
+137;Renske;Ladwig;Stock Clerk;1995-07-14;3600.00;650.121.1234;Shipping;2011 Interiors Blvd;South San Francisco
+138;Stephen;Stiles;Stock Clerk;1997-10-26;3200.00;650.121.2034;Shipping;2011 Interiors Blvd;South San Francisco
+139;John;Seo;Stock Clerk;1998-02-12;2700.00;650.121.2019;Shipping;2011 Interiors Blvd;South San Francisco
+140;Joshua;Patel;Stock Clerk;1998-04-06;2500.00;650.121.1834;Shipping;2011 Interiors Blvd;South San Francisco
+141;Trenna;Rajs;Stock Clerk;1995-10-17;3500.00;650.121.8009;Shipping;2011 Interiors Blvd;South San Francisco
+142;Curtis;Davies;Stock Clerk;1997-01-29;3100.00;650.121.2994;Shipping;2011 Interiors Blvd;South San Francisco
+143;Randall;Matos;Stock Clerk;1998-03-15;2600.00;650.121.2874;Shipping;2011 Interiors Blvd;South San Francisco
+144;Peter;Vargas;Stock Clerk;1998-07-09;2500.00;650.121.2004;Shipping;2011 Interiors Blvd;South San Francisco
+145;John;Russell;Sales Manager;1996-10-01;14000.00;011.44.1344.429268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+146;Karen;Partners;Sales Manager;1997-01-05;13500.00;011.44.1344.467268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+147;Alberto;Errazuriz;Sales Manager;1997-03-10;12000.00;011.44.1344.429278;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+148;Gerald;Cambrault;Sales Manager;1999-10-15;11000.00;011.44.1344.619268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+149;Eleni;Zlotkey;Sales Manager;2000-01-29;10500.00;011.44.1344.429018;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+150;Peter;Tucker;Sales Representative;1997-01-30;10000.00;011.44.1344.129268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+151;David;Bernstein;Sales Representative;1997-03-24;9500.00;011.44.1344.345268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+152;Peter;Hall;Sales Representative;1997-08-20;9000.00;011.44.1344.478968;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+153;Christopher;Olsen;Sales Representative;1998-03-30;8000.00;011.44.1344.498718;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+154;Nanette;Cambrault;Sales Representative;1998-12-09;7500.00;011.44.1344.987668;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+155;Oliver;Tuvault;Sales Representative;1999-11-23;7000.00;011.44.1344.486508;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+156;Janette;King;Sales Representative;1996-01-30;10000.00;011.44.1345.429268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+157;Patrick;Sully;Sales Representative;1996-03-04;9500.00;011.44.1345.929268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+158;Allan;McEwen;Sales Representative;1996-08-01;9000.00;011.44.1345.829268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+159;Lindsey;Smith;Sales Representative;1997-03-10;8000.00;011.44.1345.729268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+160;Louise;Doran;Sales Representative;1997-12-15;7500.00;011.44.1345.629268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+161;Sarath;Sewall;Sales Representative;1998-11-03;7000.00;011.44.1345.529268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+162;Clara;Vishney;Sales Representative;1997-11-11;10500.00;011.44.1346.129268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+163;Danielle;Greene;Sales Representative;1999-03-19;9500.00;011.44.1346.229268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+164;Mattea;Marvins;Sales Representative;2000-01-24;7200.00;011.44.1346.329268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+165;David;Lee;Sales Representative;2000-02-23;6800.00;011.44.1346.529268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+166;Sundar;Ande;Sales Representative;2000-03-24;6400.00;011.44.1346.629268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+167;Amit;Banda;Sales Representative;2000-04-21;6200.00;011.44.1346.729268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+168;Lisa;Ozer;Sales Representative;1997-03-11;11500.00;011.44.1343.929268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+169;Harrison;Bloom;Sales Representative;1998-03-23;10000.00;011.44.1343.829268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+170;Tayler;Fox;Sales Representative;1998-01-24;9600.00;011.44.1343.729268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+171;William;Smith;Sales Representative;1999-02-23;7400.00;011.44.1343.629268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+172;Elizabeth;Bates;Sales Representative;1999-03-24;7300.00;011.44.1343.529268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+173;Sundita;Kumar;Sales Representative;2000-04-21;6100.00;011.44.1343.329268;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+174;Ellen;Abel;Sales Representative;1996-05-11;11000.00;011.44.1644.429267;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+175;Alyssa;Hutton;Sales Representative;1997-03-19;8800.00;011.44.1644.429266;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+176;Jonathon;Taylor;Sales Representative;1998-03-24;8600.00;011.44.1644.429265;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+177;Jack;Livingston;Sales Representative;1998-04-23;8400.00;011.44.1644.429264;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+179;Charles;Johnson;Sales Representative;2000-01-04;6200.00;011.44.1644.429262;Sales;Magdalen Centre, The Oxford Science Park;Oxford
+180;Winston;Taylor;Shipping Clerk;1998-01-24;3200.00;650.507.9876;Shipping;2011 Interiors Blvd;South San Francisco
+181;Jean;Fleaur;Shipping Clerk;1998-02-23;3100.00;650.507.9877;Shipping;2011 Interiors Blvd;South San Francisco
+182;Martha;Sullivan;Shipping Clerk;1999-06-21;2500.00;650.507.9878;Shipping;2011 Interiors Blvd;South San Francisco
+183;Girard;Geoni;Shipping Clerk;2000-02-03;2800.00;650.507.9879;Shipping;2011 Interiors Blvd;South San Francisco
+184;Nandita;Sarchand;Shipping Clerk;1996-01-27;4200.00;650.509.1876;Shipping;2011 Interiors Blvd;South San Francisco
+185;Alexis;Bull;Shipping Clerk;1997-02-20;4100.00;650.509.2876;Shipping;2011 Interiors Blvd;South San Francisco
+186;Julia;Dellinger;Shipping Clerk;1998-06-24;3400.00;650.509.3876;Shipping;2011 Interiors Blvd;South San Francisco
+187;Anthony;Cabrio;Shipping Clerk;1999-02-07;3000.00;650.509.4876;Shipping;2011 Interiors Blvd;South San Francisco
+188;Kelly;Chung;Shipping Clerk;1997-06-14;3800.00;650.505.1876;Shipping;2011 Interiors Blvd;South San Francisco
+189;Jennifer;Dilly;Shipping Clerk;1997-08-13;3600.00;650.505.2876;Shipping;2011 Interiors Blvd;South San Francisco
+190;Timothy;Gates;Shipping Clerk;1998-07-11;2900.00;650.505.3876;Shipping;2011 Interiors Blvd;South San Francisco
+191;Randall;Perkins;Shipping Clerk;1999-12-19;2500.00;650.505.4876;Shipping;2011 Interiors Blvd;South San Francisco
+192;Sarah;Bell;Shipping Clerk;1996-02-04;4000.00;650.501.1876;Shipping;2011 Interiors Blvd;South San Francisco
+193;Britney;Everett;Shipping Clerk;1997-03-03;3900.00;650.501.2876;Shipping;2011 Interiors Blvd;South San Francisco
+194;Samuel;McCain;Shipping Clerk;1998-07-01;3200.00;650.501.3876;Shipping;2011 Interiors Blvd;South San Francisco
+195;Vance;Jones;Shipping Clerk;1999-03-17;2800.00;650.501.4876;Shipping;2011 Interiors Blvd;South San Francisco
+196;Alana;Walsh;Shipping Clerk;1998-04-24;3100.00;650.507.9811;Shipping;2011 Interiors Blvd;South San Francisco
+197;Kevin;Feeney;Shipping Clerk;1998-05-23;3000.00;650.507.9822;Shipping;2011 Interiors Blvd;South San Francisco
+198;Donald;OConnell;Shipping Clerk;1999-06-21;2600.00;650.507.9833;Shipping;2011 Interiors Blvd;South San Francisco
+199;Douglas;Grant;Shipping Clerk;2000-01-13;2600.00;650.507.9844;Shipping;2011 Interiors Blvd;South San Francisco
+200;Jennifer;Whalen;Administration Assistant;1987-09-17;4400.00;515.123.4444;Administration;2004 Charade Rd;Seattle
+201;Michael;Hartstein;Marketing Manager;1996-02-17;13000.00;515.123.5555;Marketing;147 Spadina Ave;Toronto
+202;Pat;Fay;Marketing Representative;1997-08-17;6000.00;603.123.6666;Marketing;147 Spadina Ave;Toronto
+203;Susan;Mavris;Human Resources Representative;1994-06-07;6500.00;515.123.7777;Human Resources;8204 Arthur St;London
+204;Hermann;Baer;Public Relations Representative;1994-06-07;10000.00;515.123.8888;Public Relations;Schwanthalerstr. 7031;Munich
+205;Shelley;Higgins;Accounting Manager;1994-06-07;12000.00;515.123.8080;Accounting;2004 Charade Rd;Seattle
+206;William;Gietz;Public Accountant;1994-06-07;8300.00;515.123.8181;Accounting;2004 Charade Rd;Seattle
