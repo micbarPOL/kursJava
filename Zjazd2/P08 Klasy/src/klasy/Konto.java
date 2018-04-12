@@ -1,8 +1,9 @@
 package klasy;
 
 public class Konto {
-	int numer, saldo;
-	Osoba wlasciciel;
+	private int numer; 
+	private int saldo;
+	private Osoba wlasciciel;
 
 	Konto(Osoba wlasciciel, int numer, int saldo) {
 		this.wlasciciel = wlasciciel;
@@ -27,5 +28,25 @@ public class Konto {
 	void przelew(Konto odbiorca, int kwota) {
 		this.saldo -= kwota;
 		odbiorca.saldo += kwota;
+	}
+	
+	public int getNumer() {
+		return numer;
+	}
+	
+	public Osoba getWlasciciel() {
+		return wlasciciel;
+	}
+	
+	public void setWlasciciel(Osoba wlasciciel) {
+		this.wlasciciel = wlasciciel;
+	}
+	
+	public void setSaldo(int saldo) {
+		this.saldo = saldo;
+	}
+	
+	public int getSaldo() {
+		return saldo;
 	}
 }

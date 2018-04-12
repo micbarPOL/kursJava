@@ -10,6 +10,7 @@ public class Referencje1 {
 
 		Konto a = new Konto(ala, 1, 1000);
 		Konto b = new Konto(ola, 2, 2000);
+		a.setSaldo(112312);
 		// program bedzie wypisywal to co jest w b. To nie znaczy ze zapisujemy obecny
 		// stan obiektu b na obiekt c. Obiekt c bedzie mial zawsze aktualny stan obiektu
 		// b
