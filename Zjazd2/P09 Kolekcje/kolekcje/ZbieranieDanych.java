@@ -48,6 +48,7 @@ public class ZbieranieDanych {
         System.out.println(lista);
         
 	    //sortowanie lambdami. System porowna dlugosci wyrazow i posortuje po nich
+        //pobiera dwa parametry (x,y), potem porównuje ilosc znakow i jesli jest dodatnia to je przestawia 
         lista.sort((x,y) -> x.length() - y.length());
         System.out.println(lista);
     }
