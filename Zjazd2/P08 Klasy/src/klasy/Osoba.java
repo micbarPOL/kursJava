@@ -4,18 +4,20 @@ import java.time.LocalDate;
 import java.time.Period;
 
 public class Osoba {
-	//Trzy rownowazne nazwy
-	//pola(field), atrybuty(atributes), zmienne instancyjne(instance variables)
+	// Trzy rownowazne nazwy
+	// pola(field), atrybuty(atributes), zmienne instancyjne(instance variables)
 	String imie, nazwisko;
-	//pamietanie wieku jest slabe bo wiek sie zmienia. Lepiej pamietac date urodzenia i dopisac klase ktora wyliczy wiek
+	// pamietanie wieku jest slabe bo wiek sie zmienia. Lepiej pamietac date
+	// urodzenia i dopisac klase ktora wyliczy wiek
 	LocalDate dataUrodzenia;
 
 	// konstruktory - specjalne wersje metod uruchamiane przy tworzeniu obiektu
-	//jesli juz chcemy robic konstruktory ale dalej uzywac jednego bez parametrow to musimy go i tak napisac bo juz nie ma domyslnych
-	Osoba(){
-		
+	// jesli juz chcemy robic konstruktory ale dalej uzywac jednego bez parametrow
+	// to musimy go i tak napisac bo juz nie ma domyslnych
+	Osoba() {
+
 	}
-	
+
 	Osoba(String imie, String nazwisko, LocalDate dataUrodzenia) {
 		this.imie = imie;
 		this.nazwisko = nazwisko;
@@ -30,16 +32,18 @@ public class Osoba {
 	void przedstawSie() {
 		System.out.println("Nazywam sie " + this.imie + " " + this.nazwisko + " i mam " + this.wiek() + " lat.");
 	}
+
 	String przedstawSieZwroc() {
 		return "Nazywam sie " + this.imie + " " + this.nazwisko + " i mam " + this.wiek() + " lat.";
 	}
-	
-	//teraz nadpisujemy metode toString. Dzieki temu jesli zrobimy System.out.println(obiekt) to wypisze sie to co jest w tej metodzie
-	//gdybysmy tego nie zrobili to wypisywalby sie szestnastkowy hash
+
+	// teraz nadpisujemy metode toString. Dzieki temu jesli zrobimy
+	// System.out.println(obiekt) to wypisze sie to co jest w tej metodzie
+	// gdybysmy tego nie zrobili to wypisywalby sie szestnastkowy hash
 	public String toString() {
 		return imie + " " + nazwisko + " (" + wiek() + " l.)";
 	}
-	
+
 	int wiek() {
 		Period czasZycia = Period.between(dataUrodzenia, LocalDate.now());
 		return czasZycia.getYears();
