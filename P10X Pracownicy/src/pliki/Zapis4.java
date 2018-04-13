@@ -17,6 +17,7 @@ public class Zapis4 {
 
 		// w try mozna podac deklaracje jakiegos zasobu
 		// pozwala na automatyczne zamykanie
+		// nazywa sie try with resources
 		try (PrintWriter out = new PrintWriter(sciezka)) {
 
 			// samo println nic nie da. Pojawi sie plik bo go tworzymy z obiektem ale nic
