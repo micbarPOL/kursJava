@@ -2,7 +2,9 @@ package Pracownicy;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
-
+/**to jest klasa ktora trzyma wszystkie dane o pracowniku
+ *@micbar
+ * */
 public class Pracownik {
 	private int id;
 	private String imie;
