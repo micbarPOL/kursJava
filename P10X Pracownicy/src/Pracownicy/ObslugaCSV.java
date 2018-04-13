@@ -11,6 +11,8 @@ import java.util.Scanner;
 
 public class ObslugaCSV {
 
+	private static final String SPLITTER = ";";
+
 	public static List<Pracownik> odczytajZPliku(String sciezka) {
 
 		// tworze liste pracownikow do ktorej bede dorzucal pracownikow
@@ -32,7 +34,7 @@ public class ObslugaCSV {
 
 				// split zwraca w wyniku tablice stringow (mozna to sprawdzic najezdzajac mysza
 				// na split)
-				String[] chunk = linia.split(";");
+				String[] chunk = linia.split(SPLITTER);
 				LocalDate data = LocalDate.parse(chunk[4]);
 				BigDecimal pensja = new BigDecimal(chunk[5]);
 				Pracownik pracownik = new Pracownik(Integer.parseInt(chunk[0]), chunk[1], chunk[2], chunk[3], data,
@@ -52,9 +54,9 @@ public class ObslugaCSV {
 
 			for (Pracownik pracownik : pracownicy) {
 
-				out.println(pracownik.getId() + ";" + pracownik.getImie() + ";" + pracownik.getNazwisko() + ";"
-						+ pracownik.getDataZatrudnienia() + ";" + pracownik.getPensja() + ";" + pracownik.getTelefon()
-						+ ";" + pracownik.getDepartament() + ";" + pracownik.getAdres() + ";" + pracownik.getMiasto());
+				out.println(pracownik.getId() + SPLITTER + pracownik.getImie() + SPLITTER + pracownik.getNazwisko() + SPLITTER
+						+ pracownik.getDataZatrudnienia() + SPLITTER + pracownik.getPensja() + SPLITTER + pracownik.getTelefon()
+						+ SPLITTER + pracownik.getDepartament() + SPLITTER + pracownik.getAdres() + SPLITTER + pracownik.getMiasto());
 			}
 
 		} catch (FileNotFoundException e) {
