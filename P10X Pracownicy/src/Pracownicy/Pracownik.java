@@ -1,5 +1,6 @@
 package Pracownicy;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class Pracownik {
@@ -8,7 +9,7 @@ public class Pracownik {
 	private String nazwisko;
 	private String stanowisko;
 	private LocalDate dataZatrudnienia;
-	private Double pensja;
+	private BigDecimal pensja;
 	private String telefon;
 	private String departament;
 	private String adres;
@@ -18,7 +19,7 @@ public class Pracownik {
 
 	}
 
-	public Pracownik(int id, String imie, String nazwisko, String stanowisko, LocalDate dataZatrudnienia, Double pensja,
+	public Pracownik(int id, String imie, String nazwisko, String stanowisko, LocalDate dataZatrudnienia, BigDecimal pensja,
 			String telefon, String departament, String adres, String miasto) {
 
 		this.id = id;
@@ -79,11 +80,11 @@ public class Pracownik {
 		this.dataZatrudnienia = dataZatrudnienia;
 	}
 
-	public Double getPensja() {
+	public BigDecimal getPensja() {
 		return pensja;
 	}
 
-	public void setPensja(Double pensja) {
+	public void setPensja(BigDecimal pensja) {
 		this.pensja = pensja;
 	}
 
@@ -193,6 +194,5 @@ public class Pracownik {
 			return false;
 		return true;
 	}
-
 
 }
