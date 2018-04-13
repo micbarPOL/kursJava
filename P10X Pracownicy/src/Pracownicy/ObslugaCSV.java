@@ -44,4 +44,8 @@ public class ObslugaCSV {
 
 		return listaPracownikow;
 	}
+	
+	public static void ZapiszDoPliku (String sciezka, List<Pracownik> pracownicy) {
+		
+	}
 }
