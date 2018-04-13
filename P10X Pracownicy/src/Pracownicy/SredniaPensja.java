@@ -11,6 +11,7 @@ public class SredniaPensja {
 		BigDecimal sumaPensji = new BigDecimal(0);
 		BigDecimal srednia = new BigDecimal(0);
 
+		//tworze liste pracownikow na ktora wpisuje liste pracownikow stworzona przez klase ObslugaCSV
 		List<Pracownik> lista = ObslugaCSV.odczytajZPliku("pracownicy.csv");
 
 		int sumaPracownikow = 0;
