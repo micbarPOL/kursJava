@@ -24,6 +24,8 @@ public class ObslugaCSV {
 		// sc.colse(). Jesli cos by bylo zle to scanner sam sie zamknie
 		try (Scanner sc = new Scanner(plik)) {
 
+			System.out.println("Zaczynam odczyt");
+
 			while (sc.hasNextLine()) {
 				String linia = sc.nextLine();
 
