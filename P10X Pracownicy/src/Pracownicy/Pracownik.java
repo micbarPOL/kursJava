@@ -37,7 +37,7 @@ public class Pracownik {
 	@Override
 	public String toString() {
 		return "Pracownik o id: " + this.id + " imie: " + this.imie + " nazwisko " + nazwisko + " z departamentu: "
-				+ departament;
+				+ departament + " pracuje na stanowisku " + stanowisko;
 	}
 
 	public int getId() {
