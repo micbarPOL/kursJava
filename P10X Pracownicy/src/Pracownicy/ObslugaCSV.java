@@ -2,6 +2,7 @@ package Pracownicy;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -44,8 +45,21 @@ public class ObslugaCSV {
 
 		return listaPracownikow;
 	}
-	
-	public static void ZapiszDoPliku (String sciezka, List<Pracownik> pracownicy) {
-		
+
+	public static void ZapiszDoPliku(String sciezka, List<Pracownik> pracownicy) {
+
+		try (PrintWriter out = new PrintWriter(sciezka)) {
+
+			for (Pracownik pracownik : pracownicy) {
+
+				out.println(pracownik.getId() + ";" + pracownik.getImie() + ";" + pracownik.getNazwisko() + ";"
+						+ pracownik.getDataZatrudnienia() + ";" + pracownik.getPensja() + ";" + pracownik.getTelefon()
+						+ ";" + pracownik.getDepartament() + ";" + pracownik.getAdres() + ";" + pracownik.getMiasto());
+			}
+
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

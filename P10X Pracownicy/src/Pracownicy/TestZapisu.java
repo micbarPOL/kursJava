@@ -13,6 +13,7 @@ public class TestZapisu {
         pracownicy.add(new Pracownik(12, "Jan", "Kowalski", "kierowca", LocalDate.of(2018, 4, 3), new BigDecimal(5000), "321-321-321", "garaż", "Kowalska", "Warszawa"));
         
         ObslugaCSV.ZapiszDoPliku("test.csv", pracownicy);
+        System.out.println("Gotowe!!!");
     }
 
 }
