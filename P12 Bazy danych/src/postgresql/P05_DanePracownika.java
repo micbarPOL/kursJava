@@ -38,7 +38,7 @@ public class P05_DanePracownika {
 
 			ResultSet rs = stmt.executeQuery();
 
-			while (rs.next()) {
+			if (rs.next()) {
 
 				String imie = rs.getString("first_name");
 				String nazwisko = rs.getString("last_name");
@@ -48,6 +48,8 @@ public class P05_DanePracownika {
 				// %-s, %s itd to format wypisywania
 				System.out.printf("%-10s %-10s %10s %s, %8s \n", imie, nazwisko, department,
 						street, city);
+			} else {
+				System.out.println("Nie znaleziono takiego pracownika !");
 			}
 
 			System.out.println("POŁACZENIE ZAMKNIETE ! ! !");
