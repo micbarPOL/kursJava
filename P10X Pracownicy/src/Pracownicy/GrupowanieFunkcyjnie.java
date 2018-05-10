@@ -17,8 +17,7 @@ public class GrupowanieFunkcyjnie {
         for (Entry<String, Double> entry : srednie.entrySet()) {
             System.out.printf("%-32s : %9.2f\n", entry.getKey(), entry.getValue());
         }
-        
-        
+             
     }
 
 }
