@@ -15,7 +15,11 @@ table {
 }
 
 th, td {
-	border: 1px solid black;
+	border: 1px solid #000040;
 	padding: 2px;
 	text-align: center;
+}
+
+.error {
+    color: red;
 }

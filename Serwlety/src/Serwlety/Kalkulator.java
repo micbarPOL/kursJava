@@ -9,15 +9,23 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/Kalkulator")
+//tu jest adres danego serwletu w obrebie projektu
+//wiec zeby wejsc na te strone nalezy wpisac:
+// http://adresSerwera:port/projekt/serwlet
+// http://localhost:8080/Serwlety/Kalkulator
+@WebServlet({"/Kalkulator", "/kalkulator.html"})
+// jesli chce na wiecej niz jednym adresie nasluchiwac to wpisuje kilka adresow w klamerkach {}
+// mozna tez napisac /Kalkulator/* wtedy serwlet bedzie obslugiwal wszystkie zapytania ze stron z katalogu /Kalkulator
+// stosuje sie to jesli chcemy zeby po wejsciu uzytkownika na strone juz serwlet decydowal co sie dzieje
+
 public class Kalkulator extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         
     	//tu bedziemy odczytywac to co wpiszemy w inputa o nazwie x
-    	String x = request.getParameter("x");
-    	String y = request.getParameter("y");
+    	String parametrX = request.getParameter("x");
+    	String parametrY = request.getParameter("y");
     	
     	response.setContentType("text/html");
         response.setCharacterEncoding("utf-8");
@@ -38,16 +46,26 @@ public class Kalkulator extends HttpServlet {
         out.println("<input type='text' name='x'>");
         //&nbsp; to odstep
         out.println("&nbsp;+&nbsp;");
+        // Jesli bysmy chcieli wyslac obrazek lub jakies inne dane binarne to uzylibysmy OutputStream response.getOutputStream
         out.println("<input type='text' name='y'><br>");
         out.println("<button>Oblicz</button>");
         out.println("</form>");
         
         
-        if(x == null || y == null) {
+        if(parametrX == null || parametrY == null) {
         	out.println("<p>Podaj obie liczby!</p>");
         } else {
-        	String z = Integer.toString((Integer.parseInt(x) + Integer.parseInt(y)));
-        	out.println("<p>Suma to: " + z + "</p>");
+        	 try {
+                 double x = Double.parseDouble(parametrX);
+                 double y = Double.parseDouble(parametrY);
+                 double suma = x + y;
+                 
+                 out.println("<p>Suma wynosi <strong>" + suma + "</strong></p>");
+             } catch (NumberFormatException e) {
+            	 //class='error' jest po to zeby potem w csssie mozna bylo ustalic jeden styl do errorow
+                 out.println("<p class='error'>Niepoprawny format liczby.</p>");
+             }
+
         }
         out.println("</body></html>");
         out.close();
